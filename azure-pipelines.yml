@@ -24,7 +24,7 @@ stages:
       displayName: Build an image
       inputs:
         containerRegistry: 'ndonkot84'
-        repository: 'pepson/currncy-exchange'
+        repository: 'ndonkot84/pepson/currncy-exchange'
         command: 'buildAndPush'
         Dockerfile: '**/Dockerfile'
         tags: '$(tag)'
